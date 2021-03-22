@@ -339,6 +339,7 @@ PRODUCT_COPY_FILES += \
 # Overlay
 PRODUCT_PACKAGES += \
     CarrierConfigOverlay \
+    DialerOverlay \
     SettingsOverlayRR \
     SweetAperture \
     SweetFrameworks \
