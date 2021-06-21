@@ -747,4 +747,7 @@
     <!-- Default color temperature, in Kelvin, to tint the screen when Night display is
          activated. -->
     <integer name="config_nightDisplayColorTemperatureDefault">3339</integer>
+
+    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
+    <bool name="config_intrusiveBatteryLed">true</bool>
 </resources>
