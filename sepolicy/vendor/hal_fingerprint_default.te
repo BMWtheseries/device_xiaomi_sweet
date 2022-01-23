@@ -23,4 +23,7 @@ get_prop(hal_fingerprint_default, vendor_adsprpc_prop)
 set_prop(hal_fingerprint_default, vendor_fp_prop)
 hal_client_domain(hal_fingerprint_default, vendor_hal_perf)
 
+# Allow fp HAL to send hint
+hal_client_domain(hal_fingerprint_default, hal_power)
+
 add_hwservice(hal_fingerprint_default, hal_fingerprint_hwservice_xiaomi)
