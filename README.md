@@ -1,4 +1,5 @@
 Copyright (C) 2021 crDroid Android Project
+Copyright (C) 2022 Nusantara Android Project
 
 Device configuration for Xiaomi Redmi Note 10 Pro
 =========================================
