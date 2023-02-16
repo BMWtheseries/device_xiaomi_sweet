@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_sweet.mk
+    $(LOCAL_DIR)/nad_sweet.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_sweet-userdebug \
-    lineage_sweet-eng
+    nad_sweet-userdebug \
+    nad_sweet-eng
