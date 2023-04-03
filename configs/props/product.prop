@@ -1,2 +1,5 @@
 # Fluence
 ro.vendor.audio.sdk.fluencetype=fluence
+
+# Radio
+persist.sys.radio.force_lte_ca=true
