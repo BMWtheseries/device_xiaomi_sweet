@@ -338,17 +338,15 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.nxp.mifare.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_sweet/com.nxp.mifare.xml
 
 # Overlay
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-ancient
-
-PRODUCT_ENFORCE_RRO_TARGETS += *
-
-# Overlay-RRO
 PRODUCT_PACKAGES += \
+    CarrierConfigOverlay \
     SettingsOverlayRR \
-    SweetinproSettingsProvider \
-    SweetinproWifiOverlay \
+    SweetAperture \
+    SweetFrameworks \
+    SweetSettings \
+    SweetSettingsProvider \
+    SweetSystemUI \
+    SweetTelephony \
     SweetWifiOverlay
 
 # Partitions
@@ -380,7 +378,6 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.3.vendor \
     android.hardware.radio.deprecated@1.0.vendor \
     android.hardware.secure_element@1.2.vendor \
-    CarrierConfigOverlay \
     libjson \
     libril \
     librilutils \
@@ -487,7 +484,6 @@ PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml \
     libwpa_client \
-    WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
 
